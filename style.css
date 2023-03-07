@@ -63,7 +63,7 @@ h2.add{
     padding-right: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    box-shadow: 0 -2px inset hsl(171, 66%, 35%);
+    box-shadow: 0 -2px inset hsl(171, 66%, 35%), 0 15px 15px hsl(171, 100%, 90%);
 }
 .buttons button:nth-of-type(2){
     border: 1px solid hsl(233, 100%, 69%);
@@ -76,21 +76,29 @@ h2.add{
     padding-right: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    box-shadow: 0 -2px inset hsl(233, 64%, 59%);
+    box-shadow: 0 -2px inset hsl(233, 64%, 59%), 0 15px 15px hsl(234, 85%, 89%);
 }
 
 /* ----------------------------------------------------CONTENT-1--------------------------------------------- */
-
 .cont-1{
     display: flex;
-    padding-top: 5rem;
+    align-content: center;
+    padding-top: 6rem;
     gap: 6rem;
 }
 .cont-1-text-item h1{
-    font-size: clamp(1.1rem, 3vw, 1.5rem);
+    font-size: clamp(1.5rem, 3vw, 1.5rem);
 }
 .cont-1-text-item h2{
-    font-size: clamp(0.8rem, 3vw, 1rem);
+    font-size: clamp(1rem, 3vw, 1rem);
+}
+.cont-1-text{
+    width: 25%;
+}
+.cont-1-picture img{
+    margin-left: -2rem;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -99,7 +107,8 @@ h2.add{
 
 
 
-@media(max-width:900px){
+@media(max-width:1144px){
+    /* ---------------------------------------------HEADER------------------------------------------ */
     header{
         grid-template-columns: 0.2fr 2fr 0.2fr;
         background-image: url(images/bg-header-mobile.png);
@@ -110,5 +119,24 @@ h2.add{
         display: grid;
         gap: 1.5rem;
         justify-content: stretch;
+    }
+    /* ---------------------------------------------CONTENT-1--------------------------------------------- */
+    .cont-1{
+        display: grid;
+        justify-content: center;
+        gap: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .cont-1-picture img{
+        margin-left: 0;
+    }
+    .cont-1-text{
+        display: grid;
+        justify-self: center;
+        text-align: center;
+        width: fit-content;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
     }
 }
