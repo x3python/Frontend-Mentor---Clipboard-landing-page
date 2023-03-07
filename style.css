@@ -101,6 +101,42 @@ h2.add{
     height: auto;
 }
 
+/* ----------------------------------------------------CONTENT-2--------------------------------------------- */
+
+.cont-2-text{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.cont-2-text .item h1{
+    padding-top: 2rem;
+}
+.cont-2-picture{
+    margin: 0 auto;
+    padding-top: 6rem;
+    width: fit-content;
+}
+.cont-2-picture img{
+    width: 100%;
+    height: auto;
+}
+
+/* ----------------------------------------------------CONTENT-3--------------------------------------------- */
+
+.cont-3-text{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.cont-3-text .item h1{
+    padding-top: 5rem;
+}
+.cont-3-text .item:nth-of-type(2){
+    text-align: center;
+    padding-top: 0rem;
+}
+
+
+
+
 
 
 
@@ -138,5 +174,25 @@ h2.add{
         width: fit-content;
         padding-left: 0.2rem;
         padding-right: 0.2rem;
+    }
+
+    /* ---------------------------------------------CONTENT-2--------------------------------------------- */
+
+    .cont-2-picture{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 4rem;
+    }
+    .cont-2-text{
+        grid-template-columns: 0.2fr 2fr 0.2fr;
+    }
+    .cont-2-text .item h1{
+        padding-top: 6rem;
+    }
+
+    /* ---------------------------------------------CONTENT-3--------------------------------------------- */
+
+    .cont-3-text{
+        grid-template-columns: 0.2fr 2fr 0.2fr;
     }
 }
