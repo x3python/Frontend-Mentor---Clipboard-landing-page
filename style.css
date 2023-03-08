@@ -134,6 +134,57 @@ h2.add{
     padding-top: 0rem;
 }
 
+/* ----------------------------------------------------CONTENT-4--------------------------------------------- */
+
+.cont-4{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr 1fr 0.3fr;
+    padding-top: 5rem;
+    gap: 3rem;
+}
+.card{
+    text-align: center;
+}
+.cont-4 .card h1{
+    font-size: clamp(1.5rem, 3vw, 1.5rem);
+}
+.cont-4 .card h2{
+    font-size: clamp(1rem, 3vw, 1rem);
+}
+.card img{
+    height: 35px;
+}
+
+/* ----------------------------------------------------CONTENT-5--------------------------------------------- */
+
+.cont-5{
+    display: grid;
+    justify-items: center;
+    padding-top: 11rem;
+    padding-bottom: 5rem;
+    grid-template-columns: 0.3fr 1fr 1fr 1fr 1fr 1fr 0.3fr;
+ }
+
+ /* ----------------------------------------------------CONTENT-6--------------------------------------------- */
+
+ .cont-6{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+ }
+ .cont-6 h1{
+    padding-top: 0;
+    font-size: clamp(1.7rem, 3vw, 2.3rem);
+ }
+ .cont-6 .item{
+    padding: 0;
+ }
+ .cont-6 h2{
+    line-height: 2rem;
+    font-size: clamp(1.02rem, 3vw, 1rem);
+ }
+
 
 
 
@@ -195,4 +246,42 @@ h2.add{
     .cont-3-text{
         grid-template-columns: 0.2fr 2fr 0.2fr;
     }
+
+     /* ---------------------------------------------CONTENT-4--------------------------------------------- */
+
+     .cont-4{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0fr 1fr 1fr 1fr 0fr;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        gap: 3rem;
+        padding-top: 3rem;
+     }
+
+     /* ---------------------------------------------CONTENT-5--------------------------------------------- */
+
+     .cont-5{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0fr 1fr 1fr 1fr 1fr 1fr 0fr;
+        padding-top: 0rem;
+        gap: 3rem;
+     }
+     .prom img{
+        height: 40px;
+     }
+     .prom img.ms{
+        height: 28px;
+     }
+     .prom img.vg{
+        height: 23px;
+     }
+
+     /* ---------------------------------------------CONTENT-6--------------------------------------------- */
+
+     .cont-6{
+        grid-template-columns: 0.2fr 2fr 0.2fr;
+        padding-top: 1rem;
+     }
 }
