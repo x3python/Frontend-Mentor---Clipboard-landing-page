@@ -284,4 +284,7 @@ h2.add{
         grid-template-columns: 0.2fr 2fr 0.2fr;
         padding-top: 1rem;
      }
+     .cont-6 h2{
+        line-height: 1.7rem;
+     }
 }
