@@ -4,7 +4,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 ## Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/frontend-mentor-qr-code-component-LGLKyEeZtj
-- Live Site URL: https://x3python.github.io/Frontend-Mentor-QR-code-component/
+- Live Site URL: https://x3python.github.io/Frontend-Mentor---Clipboard-landing-page/
 
 ### Built with
 
