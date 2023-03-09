@@ -230,6 +230,9 @@ footer{
 .soc a:hover{
     color: hsl(171, 69%, 45%);
 }
+.soc a{
+    color: hsl(210, 10%, 33%)
+}
 
 
 
