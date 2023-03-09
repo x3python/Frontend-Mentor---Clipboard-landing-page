@@ -233,6 +233,9 @@ footer{
 .soc a{
     color: hsl(210, 10%, 33%)
 }
+.soc a h2{
+    display: none;
+}
 
 
 
