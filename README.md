@@ -3,8 +3,8 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ## Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/frontend-mentor-qr-code-component-LGLKyEeZtj
-- Live Site URL: https://x3python.github.io/Frontend-Mentor-QR-code-component/
+- Solution URL: https://www.frontendmentor.io/solutions/frontendmentorclipboardlandingpage-6rY2ukt6h7
+- Live Site URL: https://x3python.github.io/Frontend-Mentor---Clipboard-landing-page/
 
 ### Built with
 
